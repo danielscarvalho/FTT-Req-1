@@ -7,10 +7,14 @@ public class ReqApi {
 		// TODO Auto-generated method stub
 		
 		// https://github.com/toddmotto/public-apis
-				
+        // https://pt.wikipedia.org/wiki/Cross-origin_resource_sharing
+		
 		try {
 		
-			URL url = new URL("https://api.duckduckgo.com/?format=json&q=Sonia+Braga");
+			//URL url = new URL("https://api.duckduckgo.com/?format=json&q=Sonia+Braga");
+			//URL url = new URL("https://api.iextrading.com/1.0/stock/ibm/chart");
+			URL url = new URL("https://chasing-coins.com/api/v1/coins");
+			
 			
 			URLConnection urlConn = url.openConnection();
 			
